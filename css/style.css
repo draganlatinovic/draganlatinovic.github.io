@@ -1,0 +1,112 @@
+/*HEADER*/
+    header {
+        background:url("../img/jumbo_final.jpg") no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    header .text {
+        padding-top: 40px;
+    }
+
+    .jumbotron {
+        margin: 0;
+    }
+
+    /*
+    overrides for mobile
+    */
+
+    @media screen and (max-width: 768px) {
+        header {
+            background:url("../img/jumbo_final_dark.jpg") no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        header .logo img {
+            /*background: red;*/
+            margin: 0 auto;
+
+        }
+        header .text {
+            text-align: center;
+            color: white;
+            padding-top: 0;
+        }
+    }
+
+/* NAVBAR */
+
+    .navbar-brand img {
+        max-height: 100%;
+
+        display: inline-block;
+
+    }
+
+    .navbar-brand p {
+        /*max-height: 100%;*/
+        margin: 0;
+        display: inline-block;
+        line-height: 20px;
+
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+
+/* FOOTER */
+
+    footer {
+        background: #337ab6;
+        color: white;
+        padding: 20px;
+
+    }
+
+/* CONTENT */
+
+    .content {
+        /*background: red;*/
+    }
+
+    .content > h1 {
+        padding: 20px 0;
+    }
+
+body {
+    /*background:url("../img/bg.jpg");*/
+    background-position: center center;
+    /*background-size: cover;*/
+}
+
+.thumbnail {
+    margin: 0;
+}
+
+.pic-holder {
+    padding: 0;
+}
+
+.pic-holder-wrapper {
+    padding-top: 20px;
+}
+
+.panel {
+    -webkit-box-shadow: 3px 7px 36px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 36px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 36px -5px rgba(0,0,0,0.75);
+}
+
+
+.partners {
+    position: relative;
+    background: white;
+    padding: 30px 0;
+}
+
+.image-wrapper {
+    padding: 15px;
+}

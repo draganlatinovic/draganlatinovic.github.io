@@ -1,0 +1,99 @@
+body  {
+
+	background:url(x.jpg)repeat ;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+
+	padding:0;
+	font-family: sans-serif;
+	
+	text-align:center;
+	color: black;
+}
+
+#top {
+	background:url(n.png) no-repeat;
+	height:300px;
+	width: 2000px;
+	margin-left: 300px;
+}
+
+#top h1 {
+	font-family:Century Schoolbook ;
+	font-weight:bold;
+	font-size:50px;
+	text-transform:uppercase;
+	text-align:left;
+	color:#cc0000;
+	font-style: italic;
+	margin-top:180px;
+	margin-left: 100px;
+}
+
+#left {
+	float:left;
+	width:15%;
+	margin-left:30px;
+	font-size:19px;
+	text-align:left;
+	color:black;
+}
+
+
+#meni{
+	font-size: 15px;
+	margin-left:10px;
+	color:#cc0000;
+}
+	
+.naslov{
+	margin:1500;
+	padding:5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background:#ffffff;
+	text-align:left;
+
+	
+}
+
+#right{
+	float:left;
+	left:0px;
+	margin-left:20px;
+	width:51%;
+	
+}
+
+
+.post {background-color: white;
+	
+	padding:10px;
+	padding-top:1px;
+	display:block;
+	text-align:left;
+}
+
+h1{
+	color:#990000;
+}
+
+#middle { 
+	background-color: white;
+	background:url(x.jpg)no-repeat ;
+
+	float:left;
+	font-size:11px;
+	width:21%;
+	margin-left:14px;
+}
+
+#footer {
+	border-top:1px solid #c4c4c4;
+	text-align:center;
+	width:100%;
+	clear:both;
+	padding-bottom:0px;
+}
+
